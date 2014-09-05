@@ -6,7 +6,7 @@ let s:normalbg= 27  " Background for normal mode and file position blocks
 let s:insertbg= 70  " Background for insert mode and file position blocks
 let s:visualbg= 166 " Background for visual mode and file position blocks
 let s:replacebg=88  " Background for replace mode and file position blocks
-let s:alert= 88     " Modefied file alert color
+let s:alert= 167    " Modefied file alert color
 
 let s:BB = ['#AFAF87', '#5F5F5F', 144, s:termbg] " Branch and file format blocks
 
