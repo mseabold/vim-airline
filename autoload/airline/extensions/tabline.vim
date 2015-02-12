@@ -66,7 +66,7 @@ endfunction
 
 function! airline#extensions#tabline#load_theme(palette)
   let colors    = get(a:palette, 'tabline', {})
-  let l:tab     = get(colors, 'airline_tab', a:palette.normal.airline_b)
+  let l:tab     = get(colors, 'airline_tab', a:palette.normal.airline_c)
   let l:tabsel  = get(colors, 'airline_tabsel', a:palette.normal.airline_a)
   let l:tabtype = get(colors, 'airline_tabtype', a:palette.normal.airline_a)
   let l:tabfill = get(colors, 'airline_tabfill', a:palette.normal.airline_c)
